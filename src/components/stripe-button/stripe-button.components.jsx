@@ -1,6 +1,5 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
-import axios from 'axios';
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
@@ -22,7 +21,7 @@ const StripeCheckoutButton = ({ price }) => {
       amount={priceForStripe}
       panelLabel='Pay Now'
       token={onToken}
-      stripeKey={ publishablekey}
+      stripeKey={publishablekey}
     />
   );
     

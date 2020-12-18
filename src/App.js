@@ -10,6 +10,7 @@ import Spinner from "./components/spinner/spinner.component"
 import {selectCurrentUser} from "./redux/user/user.selector";
 import {checkUserSession} from "./redux/user/user.actions";
 import {  GlobalStyle }  from "./global.styles";
+import ContactUs from './pages/contacts/contact';
 
 const HomePage = lazy(() => import('./pages/homepage/homepage.components'));
 const ShopPage = lazy(() => import('./pages/shop/shop.components'));
@@ -30,6 +31,7 @@ const App = ({currentUser,checkUserSession}) => {
           <Suspense fallback = {  <Spinner /> }>
            <Route exact path='/' component={HomePage} />
          <Route path='/shop' component={ShopPage} />
+         <Route path='/contact' component={ContactUs} />
          <Route exact path='/checkout' component={CheckoutPage} />
          <Route
            exact

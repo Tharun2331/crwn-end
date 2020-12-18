@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
