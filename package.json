@@ -45,19 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "We are going to replace our local state management from redux to the new context API. This repository is our application before we introduced sagas to handle our asynchronous code, which is a good starting point to make the appropriate changes!",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tharun2331/react-final.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tharun2331/react-final/issues"
-  },
-  "homepage": "https://github.com/Tharun2331/react-final#readme",
-  "keywords": []
-}
+  }
+  
+  }
+
+
